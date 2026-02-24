@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Resume </title>
+    </head>
+
+    <body>
+    <main>
+        <h1> Anthony Nguyen's Resume</h1>
+    <h2> Work/Experience </h2>
+<hr>
+    <h3>Center for Access Services, Food Pantry Assistant</h3>
+
+<p>Assisted in the efficiency of CAS: a service providing students with self-sufficient aid to tackle food instability, financial crises, and other socio-economic issues.</p>
+<p>Focused on the transportation, digital tracking, and mass-distribution of groceries, hygiene products, and other amenities</p>
+
+    <h3>ReGreen Springfield, Intern</h3>
+
+<p>As a non-profit organization, partnered with local education and government municipalities to teach young academics how to protect the environment</p>
+<p>Involved in both hands-on heavy-duty equipment handling to fight off invasive plants and plant trees & social media management / marketing</p>
+
+    <h3>Springfield Water & Sewer Commission, Intern</h3>
+
+<p>Hired under the first ever "Pipeline Program," a competitive 8-week understudy of professionals such as scientists and engineers in the water sector</p>
+<p>Exclusively asked to move forward as the first ever “Water Meters Intern” to assist in the daily operations of the city meter department.</p>
+
+    <h2>Education</h2>
+<hr>
+    <h3>UMASS Amherst, BFA in Art, Design & Animation</h3> 
+
+<p>Part of the UMass Spring 2026 Animated Film Festival Organization Team</p>
+<p>Created a multitude of multi-medium, non-destructive workflow projects</p>
+
+    <h3>Springfield Technical Community College, Associates in Fine Arts</h3>
+
+<p>A two-time member of the STCC Dean List, graduated with a 3.8 GPA</p>
+<p>Two-time recipient of the STCC Amy H. Carberry & Ray M. Di Pasquale Scholarship(s)</p>
+
+    <h3>Roger L. Putnam Vocational Technical Academy</h3> 
+
+<p>Four years of learning within the Design & Visual Communications trade; working extensively with Blender, Office 365, and Adobe programs.</p>
+<p>Graduated President of the Art Club, First Honors with a 3.8 </p>
+
+    <h2>Certifications</h2>
+<hr>
+    <h3>Community Music School of Springfield</h3>
+
+<p>Artist Development Fellowship (06/20/25)</p>
+
+    <h3>The American Heart Association</h3>
+
+<p>First Aid CPR AED (06/27/23)</p>
+
+    <h3>Adobe</h3>
+
+<p>Adobe Certified Professional in Visual Design (05/11/23)</p>
+<p>Design & Illustration Using Adobe Illustrator (05/19/2023)</p>
+<p>Design Using Adobe Photoshop (05/11/23)</p> 
+
+    </main>
+    <footer>Last updated: February 2026</footer>
+    </body>
+
+</html>
