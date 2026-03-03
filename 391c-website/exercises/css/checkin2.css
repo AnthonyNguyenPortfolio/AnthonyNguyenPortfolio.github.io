@@ -5,7 +5,7 @@ body {
 h1 {
     color: #FFFFFF;
     font-family: "Rowdies", sans-serif, "Times New Roman", 'Courier New', Courier, monospace;
-    font-size: 32;
+    font-size: 32px;
     background-color :#024950;
     padding: 1.5rem; 
     text-transform: uppercase; }
