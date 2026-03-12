@@ -1,0 +1,101 @@
+body {
+    background-color: #fde5e5;
+    margin: 0;
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    text-align: right;
+
+}
+
+main {
+    border: 0px red solid;
+
+}
+
+.wrapper {
+    border: 0px black;
+    margin: 0 auto;
+    max-width: 40rem;
+
+}
+
+h1 {
+    text-align: center;
+
+}
+
+h2.logo {
+    background-color: darkgreen;
+    text-align: center;
+    height: 6rem;
+    width: 6rem;
+    display: grid;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+article {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: .4rem;
+    padding: 1.3rem;
+    margin: .5rem;
+    margin-bottom: 1.5rem;
+    filter: drop-shadow(.3rem .3rem .2rem #c7c7c7);
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+/* Link Styling */
+
+link {
+    color: #ffbc7f;
+
+}
+
+a:visited {
+   color: #4D5C74; 
+}
+
+a:hover {
+   color: #AFDDE5;
+   text-decoration: underline; 
+}
+a:active {
+   color: #4D5C74; 
+}
+
+/* Link Styling - Header */
+
+header a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #a10000;
+    text-decoration: underline;
+}
+
+header a:active {
+    color: #4e0000;
+    text-decoration: none;
+}
