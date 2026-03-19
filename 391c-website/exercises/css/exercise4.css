@@ -1,0 +1,26 @@
+body {
+    background-color: beige; }
+
+figure {
+    display: table;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid darkolivegreen; }
+
+figcaption {
+    color: white;
+    display: block;
+    caption-side: bottom;
+    background-color: darkolivegreen;
+    padding: 1rem; }
+    
+figure img {
+    display: block;
+    max-width: 100%; }
+
+h1 {
+    text-align: center; }
+
+footer {
+    text-align: center; }
