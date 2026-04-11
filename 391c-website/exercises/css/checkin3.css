@@ -4,12 +4,11 @@ body {
     min-height: 100vh;
     color: aliceblue }
 
-.rapper {
+.grid_top_panels {
     display: grid;
-    grid-template-rows: auto 1fr 10px;
+    grid-template-rows: auto 500px 1fr;
 /* grid-template-columns: 1fr 0.5fr 0.5fr 1fr; */
-    grid-template-columns: 800px 400px 400px 800px;
-    min-height: 100vh; }     
+    grid-template-columns: 800px 400px 400px 800px; }     
 
 header {
     background-color: red;
@@ -18,22 +17,29 @@ header {
     grid-column: 1;
     grid-column-end: 5; 
     text-align: center;
-    font-weight: bold ;}
+    font-weight: bold; }
 
-.topleft { 
+.top_left { 
     background-color: darkgreen; 
     grid-row-start: 2; 
     grid-row-end: 3;  
     grid-column-start: 1; 
     grid-column-end: 3; 
-    text-align: center; }
+    font-size: xx-large;
+    text-align: center;
+    display: grid; 
+    align-content: center; 
+    justify-content: center; 
+    padding: 2rem;  }
 
-.topright_image { 
+.top_right_image { 
     background-color: lightblue;
     grid-row-start: 2;
     grid-row-end: 3; 
     grid-column-start: 3;
-    grid-column-end: 5; }
+    grid-column-end: 5; 
+    width: 200px; 
+    height: 200px; }
     
 /* .rapper .bottompanels {
   grid-area: bottompanels;
@@ -41,47 +47,43 @@ header {
   grid-template-columns: 800px 400px 400px 400px 800px; 
 gap: 1px 5px; } */
 
-.bottompanels {
-  grid-area: bottompanels;
-  display: flex; 
-  grid-template-columns: 800px 400px 400px 400px 800px; 
-gap: 1px 5px; }
+.flex_bottom_panels {
+    display: flex; }
 
-.bottomleft {
-background-color: lightgreen;
-padding: 1.5rem; 
-grid-row-start: 6; 
-grid-row-end: -4; 
-grid-column-start: 1;
-grid-column-end: 4; }
+.bottom_left {
+    background-color: red;
+    padding: 1.5rem; 
+/*  grid-row-start: 6; 
+    grid-row-end: -4; 
+    grid-column-start: 1;
+    grid-column-end: 4; */ }
 
-.middle {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block; }
+.middle_image {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    display: block; }
 
-.bottomright { 
+.bottom_right { 
     background-color: red; 
     padding: 1.5rem;
-    grid-row-start: 3; 
+/*  grid-row-start: 3; 
     grid-row-end: 4;  
-    grid-column-start: 3; 
-    grid-column-end: 5; }
+    grid-column-start: 2; 
+    grid-column-end: 5; */ }
 
-.superman_picture {
+/*.superman_photo {
   float: right;
   margin: 0 0 0.5rem 1rem;
   width: 100px;
   height: 100px;
   object-fit: cover;
-  display: block; }
+  display: block; } */
 
 /* .bottomright::after {
   content: "";
   display: table;
   clear: both; } */
-
 
 /* .bottomleft { 
     background-color: orange; 
