@@ -1,12 +1,11 @@
 
 body { 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
     color: aliceblue }
 
 .grid_top_panels {
     display: grid;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: auto 1fr;
     grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
 /*    grid-template-columns: 800px 400px 400px 800px; */}     
 
@@ -25,7 +24,7 @@ header {
     grid-row-end: 3;  
     grid-column-start: 1; 
     grid-column-end: 3; 
-    font-size: xx-large;
+    font-size: 120px;
     text-align: center;
     display: grid; 
     align-content: center; 
@@ -38,15 +37,16 @@ header {
     grid-row-end: 3; 
     grid-column-start: 3;
     grid-column-end: 5; 
-    width: 200px; 
-    height: 200px; }
+    width: 100%; 
+    height: 100%; 
+    object-fit: fill;  
+    display: block;}
 
-.top_right img {
+/* .top_right img {
     width: 100%;
     height: 100%;
     object-fit: cover;  
-    display: block;
-}
+    display: block; } */
     
 /* .rapper .bottompanels {
   grid-area: bottompanels;
