@@ -1,0 +1,52 @@
+.personal_page {
+    display: grid; 
+    align-content: center; 
+    justify-content: center; 
+    padding: 10rem; 
+    font-size: xx-large;
+    text-align: center; 
+    text-decoration: none; }
+
+.personal_page a {
+    text-decoration: none; }
+    
+nav ul {
+    display: flex; 
+    justify-content: end;
+    padding: 25px; }
+
+nav a {
+    text-align: c;
+    padding: 25px;
+    text-decoration: none; }
+
+nav li {
+    list-style-type:none; }
+
+.link_animation li a:hover {
+    color: red;
+    background-color: black; }    
+
+.link_design li a:hover {
+    color: blue;
+    background-color: black; }    
+
+.link_marketing li a:hover {
+    color: green;
+    background-color: white; }    
+
+/*.nav a {
+    text-decoration: none; }
+
+.nav ul {
+    display: flex; 
+    gap: 1rem; 
+    flex-wrap: wrap; } */
+
+/*.nav ul {
+    display: flex; 
+    text-align: center;
+    gap: 1rem; 
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-decoration: none; } */
