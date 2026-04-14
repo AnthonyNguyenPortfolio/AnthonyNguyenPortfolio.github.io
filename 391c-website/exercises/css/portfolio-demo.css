@@ -23,15 +23,15 @@ nav a {
 nav li {
     list-style-type:none; }
 
-.link_animation li a:hover {
+li.link_animation a:hover {
     color: red;
     background-color: black; }    
 
-.link_design li a:hover {
+li.link_design a:hover {
     color: blue;
     background-color: black; }    
 
-.link_marketing li a:hover {
+li.link_marketing a:hover {
     color: green;
     background-color: white; }    
 
