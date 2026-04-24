@@ -1,3 +1,5 @@
+/*Homepage*/
+
 .personal_page {
     display: grid; 
     align-content: center; 
@@ -5,7 +7,11 @@
     padding: 10rem; 
     font-size: xx-large;
     text-align: center; 
-    text-decoration: none; }
+    text-decoration: none; 
+    grid-template-rows: 5px 5px; }
+
+.personal_page a:hover {
+    color: aquamarine; } 
 
 .personal_page a {
     text-decoration: none; }
@@ -13,40 +19,79 @@
 nav ul {
     display: flex; 
     justify-content: end;
-    padding: 25px; }
+    padding: 25px; 
+    align-items: center;
+    justify-content: center; }
 
 nav a {
-    text-align: center;
     padding: 25px;
+    font-size: 20px;
     text-decoration: none; }
 
 nav li {
     list-style-type:none; }
 
-li.link_animation a:hover {
-    color: red;
-    background-color: black; }    
+li.link_animation > a:hover {
+    color: red; }    
 
-li.link_design a:hover {
-    color: blue;
-    background-color: black; }    
+li.link_design > a:hover {
+    color: orange; }    
 
-li.link_marketing a:hover {
+li.link_marketing > a:hover {
     color: green;
     background-color: white; }    
 
-/*.nav a {
-    text-decoration: none; }
+.logo_links {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center; }
 
-.nav ul {
-    display: flex; 
-    gap: 1rem; 
-    flex-wrap: wrap; } */
-
-/*.nav ul {
-    display: flex; 
-    text-align: center;
-    gap: 1rem; 
-    flex-wrap: wrap;
+.logo_links ul {
     list-style-type: none;
-    text-decoration: none; } */
+    padding-left: 0; }
+
+.logo_links li {
+    display: inline;
+    padding: 20px; }
+
+.logo_links a:hover {
+    color: blue; }
+
+.logo_links a:hover {
+    color: blueviolet; }
+
+/*Animation*/
+
+body {
+    margin: 0; }
+
+.image-grid {
+    --gap: 16px;
+    --num-cols: 4;
+    --row-height: 300px; 
+    
+    box-sizing: border-box;
+    padding: var(--gap); 
+
+    display: grid; 
+    grid-template-columns: repeat(var(--num-cols), 1 fr);
+    grid-auto-rows: var(--row-height); 
+    gap: var(--gap); }
+
+.image-grid > img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; }
+
+.image-grid-col-2 {
+    grid-column: span 2; }
+
+.image-grid-row-2 {
+    grid-row: span 2; }
+
+@media screen and (max-width: 1024px) {
+    .image-grid {
+        --num-cols: 2px;
+        --row-height: 200px } }
