@@ -1,0 +1,93 @@
+body {
+    margin: 0; }
+
+/*About*/
+
+main {
+    padding: 10px; }
+
+nav li {
+    list-style-type: none;
+    background-color: none; 
+    margin: 1rem; }
+
+nav li {
+    list-style-type: none;
+    background-color: none; 
+    margin: 1rem;; }
+
+nav a {
+    text-decoration: none;
+    color: darkred; 
+    padding: 30px; }
+
+li .active-page {
+  background-color:blue; } 
+    
+nav ul {
+    display: flex;
+    justify-content: center; 
+    background-color: none;
+    padding: 25px;
+    margin: 0; 
+    flex-wrap: wrap; }
+
+nav a:hover {
+    color: green }
+
+/*About_Logos*/
+
+.logo_links {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center; }
+
+.logo_links ul {
+    list-style-type: none;
+    padding-left: 0; }
+
+.logo_links li {
+    display: inline;
+    padding: 20px; }
+
+.logo_links a:hover {
+    color: blue; }
+
+.logo_links a:hover {
+    color: blueviolet; }
+
+/*Animation*/
+
+.image-grid {
+    --gap: 16px;
+    --num-cols: 4;
+    --row-height: 300px; 
+    
+    box-sizing: border-box;
+    padding: var(--gap); 
+
+    display: grid; 
+    grid-template-columns: repeat(var(--num-cols), 1 fr);
+    grid-auto-rows: var(--row-height); 
+    gap: var(--gap); }
+
+.image-grid > img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; }
+
+.image-grid-col-2 {
+    grid-column: span 2; }
+
+.image-grid-row-2 {
+    grid-row: span 2; }
+
+@media screen and (max-width: 1024px) {
+    .image-grid {
+        --num-cols: 2px;
+        --row-height: 200px } }
+
+
+
